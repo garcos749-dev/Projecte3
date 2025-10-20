@@ -50,5 +50,7 @@ Els resultats es recolliran en un **repositori digital** que inclourà totes les
 - **P06:** Vídeo formatiu sobre DNS  
 - **P07:** Infografia sobre sostenibilitat tecnològica  
 
+---
+
 
 
