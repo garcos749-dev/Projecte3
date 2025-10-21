@@ -1,4 +1,4 @@
-#  INFORME TÈCNIC  
+# 🧩 INFORME TÈCNIC  
 ## T01 – Gestor de contrasenyes  
 
 **Consultora:** EverPia  
@@ -7,7 +7,7 @@
 
 ---
 
-##  Índex  
+## 📑 Índex  
 
 1. [Introducció i justificació](#1-introducció-i-justificació)  
 2. [Comparativa tècnica de gestors de contrasenyes](#2-comparativa-tècnica-de-gestors-de-contrasenyes)  
@@ -20,112 +20,117 @@
 
 ## 1. Introducció i justificació  
 
-La seguretat de la informació és un dels pilars fonamentals en qualsevol empresa tecnològica.  
-Les contrasenyes constitueixen la primera línia de defensa per protegir els sistemes, serveis i dades corporatives.  
+La seguretat de la informació és essencial per a qualsevol empresa tecnològica. Les contrasenyes actuen com la primera línia de defensa davant accessos no autoritzats i, per tant, la seva correcta gestió és clau per protegir dades corporatives, serveis i sistemes interns.  
 
-No obstant això, una de les causes més freqüents de vulnerabilitats és l’ús de **contrasenyes febles, simples o reutilitzades** en múltiples comptes.  
-Aquest problema ha provocat nombrosos **ciberatacs** basats en tècniques com els **atacs de diccionari** o el **credential stuffing**, on els atacants proven combinacions de contrasenyes filtrades prèviament.  
+En els darrers anys, l’ús de **contrasenyes febles o reutilitzades** ha estat un dels principals factors que han permès **ciberatacs i filtracions de dades**.  
+Mitjançant tècniques com **els atacs de diccionari** o **el credential stuffing**, els atacants aconsegueixen accedir a comptes corporatius reutilitzant credencials robades en altres plataformes.  
 
-Això pot provocar accessos no autoritzats, robatori d’informació, suplantacions d’identitat o, fins i tot, bloquejos dels sistemes interns.  
+Aquest tipus de vulnerabilitats va provocar recentment una **bretxa de seguretat a EverPia**, després que un tècnic utilitzés una contrasenya reutilitzada.  
+Davant d’aquest incident, la Direcció Tècnica ha ordenat la implantació obligatòria d’un **gestor de contrasenyes corporatiu** per a tot el personal tècnic.  
 
-En el cas d’EverPia, la fuita d’informació recent ha demostrat que una contrasenya reutilitzada per un tècnic va ser l’origen de la bretxa de seguretat.  
-Davant d’aquest incident, la Direcció Tècnica ha establert la implementació obligatòria d’un **gestor de contrasenyes** per a tot el personal tècnic.  
-
-Un gestor de contrasenyes és una eina que permet **generar, desar i gestionar de manera segura totes les credencials d’un usuari**, garantint que cada compte tingui una contrasenya única, complexa i difícil d’endevinar.  
-A més, aquests gestors eviten que les contrasenyes quedin exposades o s'emmagatzemin en documents o navegadors sense protecció.  
+Un gestor de contrasenyes permet **emmagatzemar i generar credencials de manera segura**, amb contrasenyes úniques, llargues i difícils d’endevinar.  
+A més, garanteix que els usuaris **no hagin de recordar múltiples contrasenyes**, reduint la probabilitat d’errors humans i augmentant la seguretat general de l’organització.  
 
 ---
 
 ## 2. Comparativa tècnica de gestors de contrasenyes  
 
-S’han analitzat dues eines principals per determinar quina és la més adequada per a EverPia:  
+S’han comparat dues opcions principals: **Bitwarden**, com a alternativa en línia (núvol), i **KeePassXC**, com a solució local (offline).  
 
 | **Característica** | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
 |--------------------|--------------------------------|--------------------------------------|
 | **Tipus d’eina** | Núvol (online) | Local (offline) |
 | **Model de seguretat** | Xifratge d’extrem a extrem (E2E), autenticació 2FA | Xifratge AES-256 del fitxer KDBX amb clau mestra |
 | **Emmagatzematge** | Servidors al núvol de Bitwarden | Fitxer local KDBX guardat a l’equip o USB |
-| **Accés** | Multidispositiu (web, app, navegador) | Escriptori (Windows, Linux, macOS) |
+| **Accés** | Web, aplicació d’escriptori, mòbil i extensions de navegador | Només aplicació d’escriptori |
 | **Codi font** | Open Source | Open Source |
-| **Cost / Llicència** | Freemium (versió bàsica gratuïta, premium opcional) | Gratuït completament |
-| **Portabilitat** | Requereix connexió a Internet | Totalment portàtil (fitxer exportable) |
-| **Dependència del núvol** | Alta | Cap |
-| **Risc de filtració externa** | Possible si hi ha bretxa al servei | Només si es perd o roba el fitxer local |
+| **Cost / Llicència** | Freemium (versió gratuïta i opció premium) | Gratuït completament |
+| **Portabilitat** | Accessible des de qualsevol dispositiu amb Internet | Portàtil mitjançant fitxer exportable |
+| **Dependència del núvol** | Sí | No |
+| **Còpies de seguretat** | Automàtiques al servidor xifrat | Manuals (cal copiar el fitxer localment) |
+| **Sincronització** | Automàtica entre dispositius | No disponible |
+| **Autenticació multifactor (2FA)** | Inclosa | Limitada a l’accés local |
 
 ---
 
 ## 3. Avantatges i inconvenients dels models  
 
-###  Bitwarden (Online)  
+### 🟩 Bitwarden (Online / Núvol)  
 
 **Avantatges:**  
-- Sincronització automàtica entre dispositius.  
-- Còpies de seguretat integrades.  
-- Accessible des de qualsevol lloc.  
+- Sincronització automàtica entre tots els dispositius (ordinador, mòbil, navegador).  
+- Interfície moderna, intuïtiva i fàcil d’utilitzar.  
+- Xifratge d’extrem a extrem (E2E): només l’usuari pot desxifrar les seves dades.  
+- Possibilitat d’activar **autenticació multifactor (2FA)**.  
+- Còpies de seguretat automàtiques i sistema de recuperació segura.  
+- Compatible amb navegadors i plataformes mòbils (Android/iOS).  
 
 **Inconvenients:**  
-- Depèn del núvol i d’una connexió a Internet.  
-- Possible risc en cas de vulnerabilitat al servei extern.  
-- Algunes funcions requereixen versió premium.  
+- Depèn d’una connexió a Internet.  
+- En entorns molt crítics, confiar en un proveïdor extern pot ser vist com un risc.  
+- Algunes funcions avançades (com compartir grups o auditories) requereixen la versió premium.  
 
 ---
 
-###  KeePassXC (Offline)  
+### 🟦 KeePassXC (Offline / Local)  
 
 **Avantatges:**  
-- Control total de les dades (no depèn del núvol).  
-- Eina open source i gratuïta.  
-- Alta seguretat gràcies al xifratge AES-256 del fitxer KDBX.  
-- Portabilitat senzilla amb memòries USB.  
+- Total control sobre la base de dades i les credencials.  
+- Funciona sense connexió a Internet.  
+- Programari 100% gratuït i de codi obert.  
+- No depèn de cap servidor extern.  
 
 **Inconvenients:**  
-- No sincronitza automàticament entre dispositius.  
-- Requereix còpies de seguretat manuals.  
-- No disposa d’aplicació mòbil oficial.  
+- No disposa de sincronització automàtica entre dispositius.  
+- Les còpies de seguretat s’han de fer manualment.  
+- Interfície menys intuïtiva i sense aplicació mòbil oficial.  
 
 ---
 
 ## 4. Recomanació final  
 
-Després de l’anàlisi, es recomana la implementació de **KeePassXC** com a gestor de contrasenyes per al personal tècnic d’EverPia.  
+Després d’analitzar les dues alternatives, es recomana la implementació de **Bitwarden** com a gestor de contrasenyes corporatiu a EverPia.  
 
-###  Motivacions principals de la decisió:  
+### 🧠 Motivacions principals de la decisió:  
 
-- **Seguretat total i independència del núvol:**  
-  KeePassXC emmagatzema totes les dades localment en un fitxer xifrat `.kdbx`, evitant exposar credencials a servidors externs.  
+- **Sincronització i accessibilitat:**  
+  Bitwarden permet accedir a les credencials des de qualsevol dispositiu, cosa que és essencial per a un equip tècnic distribuït o amb teletreball.  
 
-- **Cost zero:**  
-  És una eina completament gratuïta i de codi obert, accessible per a tot el personal sense costos recurrents.  
+- **Xifratge avançat i seguretat zero-knowledge:**  
+  Totes les dades estan protegides amb **xifratge d’extrem a extrem**, i només l’usuari posseeix la clau per desxifrar-les. Ni tan sols Bitwarden pot accedir a les contrasenyes.  
 
-- **Control i transparència:**  
-  Permet a l’empresa tenir un control complet sobre la gestió i la ubicació dels arxius, afavorint polítiques internes de seguretat.  
+- **Eficiència operativa:**  
+  Els tècnics poden compartir credencials d’equip o projectes de manera segura, sense haver d’intercanviar contrasenyes per correu o missatgeria.  
 
-- **Portabilitat:**  
-  El fitxer de la base de dades pot guardar-se en dispositius xifrats (claus USB, discs externs) i obrir-se des de qualsevol ordinador de manera segura.  
+- **Gestió centralitzada i còpies automàtiques:**  
+  Les còpies de seguretat s’executen de forma automàtica al núvol, garantint que cap dada es perdi.  
 
-- **Compliment de bones pràctiques de seguretat:**  
-  KeePassXC permet generar contrasenyes fortes, llargues i úniques, minimitzant riscos d’atacs de força bruta o reutilització.  
+- **Compatibilitat total:**  
+  Bitwarden és multiplataforma i funciona en navegadors, aplicacions d’escriptori i dispositius mòbils, adaptant-se a qualsevol entorn de treball.  
 
-Amb tot això, **KeePassXC** s’ajusta perfectament a les necessitats de la consultora EverPia, oferint una solució robusta, segura i controlada internament per evitar futurs incidents de seguretat.  
+- **Autenticació de dos factors (2FA):**  
+  Afegeix una capa addicional de seguretat per protegir l’accés als comptes.  
+
+Amb tot això, **Bitwarden** és l’opció més equilibrada entre seguretat, comoditat i eficiència per a EverPia.  
 
 ---
 
 ## 5. Conclusions  
 
-La implantació d’un gestor de contrasenyes és una mesura essencial dins la política de seguretat d’EverPia.  
-L’ús d’eines com KeePassXC permet reduir significativament el risc d’atacs derivats de contrasenyes febles o reutilitzades i millora la **ciberhigiene** del personal tècnic.  
+La implantació de **Bitwarden** com a gestor de contrasenyes corporatiu suposa un pas fonamental per millorar la seguretat i la productivitat a EverPia.  
 
-Amb aquesta implementació, l’empresa:  
-- Incrementa la protecció de dades internes i projectes en desenvolupament.  
-- Millora la cultura de seguretat entre els empleats.  
-- Redueix el risc de noves bretxes d’informació.  
+Gràcies a aquesta eina, l’empresa:  
+- Redueix dràsticament el risc d’ús de contrasenyes febles o repetides.  
+- Centralitza la gestió de credencials de manera segura i eficient.  
+- Millora la col·laboració entre equips tècnics amb credencials compartides de forma xifrada.  
+- Garanteix l’accés segur des de qualsevol dispositiu amb connexió a Internet.  
 
-L’ús responsable i la formació contínua en seguretat digital seran claus per mantenir la integritat i la confiança dins d’EverPia.  
+En conclusió, **Bitwarden** ofereix una solució moderna, escalable i de confiança per garantir la seguretat de les credencials corporatives, reforçant la ciberseguretat d’EverPia i minimitzant els riscos de futures bretxes d’informació.  
 
 ---
 
-##  Annexos recomanats  
+## 📎 Annexos recomanats  
 
-- **Fitxer d’instal·lació de KeePassXC:** [https://keepassxc.org/download](https://keepassxc.org/download)  
+- **Web oficial de Bitwarden:** [https://bitwarden.com](https://bitwarden.com)  
 - **Guia d’ús tècnica:** (vegeu document [`guia.md`](guia.md))  
 - **Referència:** [INCIBE – Gestores de contraseñas](https://www.incibe.es/protege-tu-empresa/blog/gestores-de-contrasenas)  
