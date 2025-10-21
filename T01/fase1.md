@@ -113,7 +113,7 @@ Amb aquesta implementació, l’empresa:
 L’ús responsable i la formació contínua en seguretat digital seran claus per mantenir la integritat i la confiança dins d’EverPia.  
 
 ---
-## 📎 Annexos recomanats  
+##  Annexos recomanats  
 
 - **Fitxer d’instal·lació de KeePassXC:** [https://keepassxc.org/download](https://keepassxc.org/download)  
 - **Guia d’ús tècnica:** (vegeu document `guia.md`)  
