@@ -1,5 +1,5 @@
 
-# 🧩 INFORME TÈCNIC  
+#  INFORME TÈCNIC  
 ## T01 – Gestor de contrasenyes  
 
 **Consultora:** EverPia  
