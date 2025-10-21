@@ -1,5 +1,5 @@
-#  GUIA D’ÚS TÈCNICA  
-## T01 – Gestor de contrasenyes: KeePassXC  
+#  INFORME TÈCNIC  
+## T01 – Gestor de contrasenyes  
 
 **Consultora:** EverPia  
 **Autor:** Javier García  
@@ -7,129 +7,125 @@
 
 ---
 
-### 1. Introducció  
+##  Índex  
 
-Aquesta guia té com a objectiu explicar, pas a pas, com instal·lar, configurar i utilitzar **KeePassXC**, el gestor de contrasenyes escollit per la consultora EverPia per garantir una gestió segura i eficient de les credencials corporatives.  
-
-KeePassXC és un programari **lliure, multiplataforma i de codi obert** que permet emmagatzemar totes les contrasenyes en una **base de dades local xifrada (.kdbx)** protegida amb una clau mestra o un arxiu de claus.  
-A diferència d’altres gestors basats en el núvol, KeePassXC funciona **de manera completament local**, cosa que garanteix una seguretat i control total sobre les dades.  
-
----
-
-### 2. Instal·lació i configuració inicial  
-
-#### 2.1. Descàrrega i instal·lació  
-
-1. Accediu al lloc web oficial: [https://keepassxc.org/download](https://keepassxc.org/download)  
-2. Descarregueu la versió corresponent al vostre sistema operatiu (Windows, macOS o Linux).  
-3. Executeu l’instal·lador i seguiu les instruccions fins a completar la instal·lació.  
-4. Un cop instal·lat, obriu el programa **KeePassXC** des del menú d’aplicacions o l’escriptori.  
-
-#### 2.2. Creació de la base de dades principal  
-
-1. Feu clic a **“Nova base de dades” (New Database)**.  
-2. Introduïu un **nom identificatiu** (per exemple, *Credencials_EverPia*).  
-3. Seleccioneu el **nivell de seguretat del xifratge (AES-256 per defecte)**.  
-4. Trieu una **contrasenya mestra robusta** (mínim 12 caràcters amb majúscules, minúscules, números i símbols).  
-   - També podeu afegir un **fitxer de clau (key file)** com a segona capa de seguretat.  
-5. Deseu la base de dades (`.kdbx`) en una ubicació segura de l’ordinador o una clau USB xifrada.  
+1. [Introducció i justificació](#1-introducció-i-justificació)  
+2. [Comparativa tècnica de gestors de contrasenyes](#2-comparativa-tècnica-de-gestors-de-contrasenyes)  
+3. [Avantatges i inconvenients dels models](#3-avantatges-i-inconvenients-dels-models)  
+4. [Recomanació final](#4-recomanació-final)  
+5. [Conclusions](#5-conclusions)  
+6. [Annexos recomanats](#-annexos-recomanats)  
 
 ---
 
-### 3. Generació de contrasenyes segures  
+## 1. Introducció i justificació  
 
-KeePassXC incorpora un generador automàtic de contrasenyes que permet crear claus fortes i úniques per a cada compte.  
+La seguretat de la informació és un dels pilars fonamentals en qualsevol empresa tecnològica.  
+Les contrasenyes constitueixen la primera línia de defensa per protegir els sistemes, serveis i dades corporatives.  
 
-#### 3.1. Com accedir al generador  
+No obstant això, una de les causes més freqüents de vulnerabilitats és l’ús de **contrasenyes febles, simples o reutilitzades** en múltiples comptes.  
+Aquest problema ha provocat nombrosos **ciberatacs** basats en tècniques com els **atacs de diccionari** o el **credential stuffing**, on els atacants proven combinacions de contrasenyes filtrades prèviament.  
 
-1. A la barra d’eines, feu clic a **“Eines → Generador de contrasenyes”** o utilitzeu la drecera **Ctrl + G**.  
-2. Seleccioneu els paràmetres de seguretat:  
-   - Longitud recomanada: **16 caràcters o més**.  
-   - Incloure: **majúscules, minúscules, números i símbols**.  
-   - Evitar caràcters semblants (`O` i `0`, `l` i `1`) per facilitar-ne la lectura.  
-3. Copieu la contrasenya generada i deseu-la directament dins de l’entrada corresponent al vostre compte.  
+Això pot provocar accessos no autoritzats, robatori d’informació, suplantacions d’identitat o, fins i tot, bloquejos dels sistemes interns.  
 
----
+En el cas d’EverPia, la fuita d’informació recent ha demostrat que una contrasenya reutilitzada per un tècnic va ser l’origen de la bretxa de seguretat.  
+Davant d’aquest incident, la Direcció Tècnica ha establert la implementació obligatòria d’un **gestor de contrasenyes** per a tot el personal tècnic.  
 
-### 4. Exemples d’ús i emplenament automàtic  
-
-#### 4.1. Desar una credencial de correu electrònic  
-
-1. A la base de dades oberta, feu clic a **“Nova entrada” (Add New Entry)**.  
-2. Introduïu:  
-   - **Nom de l’entrada:** Compte de correu corporatiu.  
-   - **Nom d’usuari:** el vostre usuari o adreça de correu.  
-   - **Contrasenya:** enganxeu la contrasenya generada amb l’eina anterior.  
-   - **URL:** adreça del servei (ex: `https://outlook.office.com`).  
-3. Deseu els canvis amb **Ctrl + S**.  
-
-#### 4.2. Desar una credencial d’una aplicació o servei web  
-
-1. Creeu una nova entrada amb el nom de l’aplicació (ex: *GitHub – EverPia*).  
-2. Introduïu usuari, contrasenya i enllaç.  
-3. Podeu organitzar les entrades en **carpetes o grups** (ex: “Xarxes”, “Correu”, “Aplicacions internes”).  
-
-#### 4.3. Emplenament automàtic amb l’extensió del navegador  
-
-KeePassXC ofereix una extensió per a Chrome, Firefox o Edge anomenada **KeePassXC-Browser**.  
-Per utilitzar-la:  
-
-1. Instal·leu l’extensió des de la botiga del vostre navegador.  
-2. Obriu KeePassXC i aneu a **Eines → Configuració → Integració del navegador**.  
-3. Activeu l’opció corresponent al vostre navegador.  
-4. Quan accediu a un lloc web, KeePassXC reconeixerà l’URL i us permetrà **emplenar automàticament l’usuari i contrasenya**.  
+Un gestor de contrasenyes és una eina que permet **generar, desar i gestionar de manera segura totes les credencials d’un usuari**, garantint que cada compte tingui una contrasenya única, complexa i difícil d’endevinar.  
+A més, aquests gestors eviten que les contrasenyes quedin exposades o s'emmagatzemin en documents o navegadors sense protecció.  
 
 ---
 
-### 5. Gestió de còpies de seguretat (Backup)  
+## 2. Comparativa tècnica de gestors de contrasenyes  
 
-Fer còpies de seguretat regulars és essencial per no perdre la base de dades de contrasenyes.  
+S’han analitzat dues eines principals per determinar quina és la més adequada per a EverPia:  
 
-#### 5.1. Creació de còpia de seguretat  
-
-1. Tanqueu la base de dades.  
-2. Copieu el fitxer `.kdbx` a una ubicació segura.  
-3. Es recomana crear **dues còpies xifrades** en llocs diferents:  
-   - **Còpia local:** en un disc o clau USB protegida amb contrasenya.  
-   - **Còpia remota:** dins d’un servei de núvol xifrat (com Tresorit, MEGA o OneDrive amb xifratge activat).  
-
-#### 5.2. Bones pràctiques  
-
-- No deseu mai la contrasenya mestra al mateix lloc que la base de dades.  
-- Actualitzeu la contrasenya mestra cada 6-12 mesos.  
-- Mantingueu KeePassXC actualitzat a la seva darrera versió.  
+| **Característica** | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
+|--------------------|--------------------------------|--------------------------------------|
+| **Tipus d’eina** | Núvol (online) | Local (offline) |
+| **Model de seguretat** | Xifratge d’extrem a extrem (E2E), autenticació 2FA | Xifratge AES-256 del fitxer KDBX amb clau mestra |
+| **Emmagatzematge** | Servidors al núvol de Bitwarden | Fitxer local KDBX guardat a l’equip o USB |
+| **Accés** | Multidispositiu (web, app, navegador) | Escriptori (Windows, Linux, macOS) |
+| **Codi font** | Open Source | Open Source |
+| **Cost / Llicència** | Freemium (versió bàsica gratuïta, premium opcional) | Gratuït completament |
+| **Portabilitat** | Requereix connexió a Internet | Totalment portàtil (fitxer exportable) |
+| **Dependència del núvol** | Alta | Cap |
+| **Risc de filtració externa** | Possible si hi ha bretxa al servei | Només si es perd o roba el fitxer local |
 
 ---
 
-### 6. Resolució de problemes comuns  
+## 3. Avantatges i inconvenients dels models  
 
-| **Problema** | **Possible causa** | **Solució** |
-|--------------|-------------------|--------------|
-| No recordo la contrasenya mestra | Error humà o oblit | No és possible recuperar-la; cal restaurar una còpia de seguretat. |
-| El fitxer `.kdbx` no s’obre | Fitxer corrupte o incomplet | Proveu d’obrir una còpia anterior o reparar-la amb l’opció “Recuperar base de dades”. |
-| L’extensió del navegador no detecta KeePassXC | No hi ha connexió entre aplicació i extensió | Reviseu la configuració d’integració del navegador a KeePassXC. |
+###  Bitwarden (Online)  
 
----
+**Avantatges:**  
+- Sincronització automàtica entre dispositius.  
+- Còpies de seguretat integrades.  
+- Accessible des de qualsevol lloc.  
 
-### 7. Conclusions i bones pràctiques  
-
-L’ús de KeePassXC permet establir una política de seguretat sòlida dins d’EverPia, reduint significativament el risc d’exposició de credencials.  
-
-Algunes **bones pràctiques essencials** per garantir-ne l’efectivitat són:  
-
-- Utilitzar sempre **contrasenyes úniques i complexes**.  
-- Fer **còpies de seguretat periòdiques** i guardar-les en llocs segurs.  
-- No compartir mai la contrasenya mestra amb ningú.  
-- Mantindre l’aplicació i el sistema operatiu **actualitzats**.  
-- Reforçar la seguretat amb **autenticació multifactor (2FA)** quan sigui possible.  
-
-Amb la correcta implementació d’aquesta eina, EverPia augmenta la seva resiliència davant amenaces i assegura una millor gestió de la seva informació crítica.  
+**Inconvenients:**  
+- Depèn del núvol i d’una connexió a Internet.  
+- Possible risc en cas de vulnerabilitat al servei extern.  
+- Algunes funcions requereixen versió premium.  
 
 ---
 
-###  Annexos recomanats  
+###  KeePassXC (Offline)  
 
-- [Manual oficial de KeePassXC (Documentació)](https://keepassxc.org/docs/)  
-- [Extensió oficial KeePassXC-Browser](https://addons.mozilla.org/firefox/addon/keepassxc-browser/)  
-- [INCIBE – Gestores de contraseñas: qué son y cómo pueden mejorar la seguridad de las empresas](https://www.incibe.es/protege-tu-empresa/blog/gestores-de-contrasenas)  
+**Avantatges:**  
+- Control total de les dades (no depèn del núvol).  
+- Eina open source i gratuïta.  
+- Alta seguretat gràcies al xifratge AES-256 del fitxer KDBX.  
+- Portabilitat senzilla amb memòries USB.  
 
+**Inconvenients:**  
+- No sincronitza automàticament entre dispositius.  
+- Requereix còpies de seguretat manuals.  
+- No disposa d’aplicació mòbil oficial.  
+
+---
+
+## 4. Recomanació final  
+
+Després de l’anàlisi, es recomana la implementació de **KeePassXC** com a gestor de contrasenyes per al personal tècnic d’EverPia.  
+
+###  Motivacions principals de la decisió:  
+
+- **Seguretat total i independència del núvol:**  
+  KeePassXC emmagatzema totes les dades localment en un fitxer xifrat `.kdbx`, evitant exposar credencials a servidors externs.  
+
+- **Cost zero:**  
+  És una eina completament gratuïta i de codi obert, accessible per a tot el personal sense costos recurrents.  
+
+- **Control i transparència:**  
+  Permet a l’empresa tenir un control complet sobre la gestió i la ubicació dels arxius, afavorint polítiques internes de seguretat.  
+
+- **Portabilitat:**  
+  El fitxer de la base de dades pot guardar-se en dispositius xifrats (claus USB, discs externs) i obrir-se des de qualsevol ordinador de manera segura.  
+
+- **Compliment de bones pràctiques de seguretat:**  
+  KeePassXC permet generar contrasenyes fortes, llargues i úniques, minimitzant riscos d’atacs de força bruta o reutilització.  
+
+Amb tot això, **KeePassXC** s’ajusta perfectament a les necessitats de la consultora EverPia, oferint una solució robusta, segura i controlada internament per evitar futurs incidents de seguretat.  
+
+---
+
+## 5. Conclusions  
+
+La implantació d’un gestor de contrasenyes és una mesura essencial dins la política de seguretat d’EverPia.  
+L’ús d’eines com KeePassXC permet reduir significativament el risc d’atacs derivats de contrasenyes febles o reutilitzades i millora la **ciberhigiene** del personal tècnic.  
+
+Amb aquesta implementació, l’empresa:  
+- Incrementa la protecció de dades internes i projectes en desenvolupament.  
+- Millora la cultura de seguretat entre els empleats.  
+- Redueix el risc de noves bretxes d’informació.  
+
+L’ús responsable i la formació contínua en seguretat digital seran claus per mantenir la integritat i la confiança dins d’EverPia.  
+
+---
+
+##  Annexos recomanats  
+
+- **Fitxer d’instal·lació de KeePassXC:** [https://keepassxc.org/download](https://keepassxc.org/download)  
+- **Guia d’ús tècnica:** (vegeu document [`guia.md`](guia.md))  
+- **Referència:** [INCIBE – Gestores de contraseñas](https://www.incibe.es/protege-tu-empresa/blog/gestores-de-contrasenas)  
