@@ -1,10 +1,20 @@
-
 #  INFORME TÈCNIC  
 ## T01 – Gestor de contrasenyes  
 
 **Consultora:** EverPia  
 **Autor:** Javier García  
 **Data:** 21/10/2025  
+
+---
+
+##  Índex  
+
+1. [Introducció i justificació](#1-introducció-i-justificació)  
+2. [Comparativa tècnica de gestors de contrasenyes](#2-comparativa-tècnica-de-gestors-de-contrasenyes)  
+3. [Avantatges i inconvenients dels models](#3-avantatges-i-inconvenients-dels-models)  
+4. [Recomanació final](#4-recomanació-final)  
+5. [Conclusions](#5-conclusions)  
+6. [Annexos recomanats](#-annexos-recomanats)  
 
 ---
 
@@ -46,7 +56,7 @@ S’han analitzat dues eines principals per determinar quina és la més adequad
 
 ## 3. Avantatges i inconvenients dels models  
 
-### **Bitwarden (Online)**  
+###  Bitwarden (Online)  
 
 **Avantatges:**  
 - Sincronització automàtica entre dispositius.  
@@ -60,7 +70,7 @@ S’han analitzat dues eines principals per determinar quina és la més adequad
 
 ---
 
-### **KeePassXC (Offline)**  
+###  KeePassXC (Offline)  
 
 **Avantatges:**  
 - Control total de les dades (no depèn del núvol).  
@@ -79,7 +89,7 @@ S’han analitzat dues eines principals per determinar quina és la més adequad
 
 Després de l’anàlisi, es recomana la implementació de **KeePassXC** com a gestor de contrasenyes per al personal tècnic d’EverPia.  
 
-### **Motivacions principals de la decisió:**  
+###  Motivacions principals de la decisió:  
 
 - **Seguretat total i independència del núvol:**  
   KeePassXC emmagatzema totes les dades localment en un fitxer xifrat `.kdbx`, evitant exposar credencials a servidors externs.  
@@ -113,8 +123,9 @@ Amb aquesta implementació, l’empresa:
 L’ús responsable i la formació contínua en seguretat digital seran claus per mantenir la integritat i la confiança dins d’EverPia.  
 
 ---
+
 ##  Annexos recomanats  
 
 - **Fitxer d’instal·lació de KeePassXC:** [https://keepassxc.org/download](https://keepassxc.org/download)  
-- **Guia d’ús tècnica:** (vegeu document `guia.md`)  
+- **Guia d’ús tècnica:** (vegeu document [`guia.md`](guia.md))  
 - **Referència:** [INCIBE – Gestores de contraseñas](https://www.incibe.es/protege-tu-empresa/blog/gestores-de-contrasenas)  
