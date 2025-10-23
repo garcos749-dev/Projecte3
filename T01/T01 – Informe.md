@@ -1,4 +1,4 @@
-# **INFORME TÈCNIC** {#informe-tècnic}
+# **INFORME TÈCNIC**
 
 
 ![imagen](img/foto10.png)
