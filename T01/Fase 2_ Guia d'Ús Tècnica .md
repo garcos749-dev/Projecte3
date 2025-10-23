@@ -20,19 +20,25 @@ La guia ha de cobrir els següents punts obligatoris:
    * Recomanació de la millor pràctica per emmagatzemar aquesta còpia de seguretat de forma segura (clau USB xifrada o emmagatzematge xifrat al núvol).
 
 Comencem instal·lant la nostra eina, Bitwarden.
+![imagen](img/foto1.png)
 
 L'obrim.  
-![][image1]
+![imagen](img/foto2.png)
 
 Una vegada a dins crearem el nostre nou compte.
+![imagen](img/foto3.png)
 
 Primerament posem el nostre nom i correu
+![imagen](img/foto4.png)
 
 Fem la comprovació per poder continuar amb la creació del nou compte.
+![imagen](img/foto5.png)
 
 Posem una contrasenya difícil, com podria ser aquesta:
+![imagen](img/foto6.png)
 
 Ara ja tindrem el nostre compte nou creat i estarem dins.
+![imagen](img/foto7.png)
 
 # **Part 2** 
 
