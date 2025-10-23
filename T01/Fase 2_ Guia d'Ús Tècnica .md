@@ -35,7 +35,8 @@ Fem la comprovació per poder continuar amb la creació del nou compte.
 ![imagen](img/foto5.png)
 
 Posem una contrasenya difícil, com podria ser aquesta:
-![imagen](img/foto6.png)
+
+![imagen](img/foto8.png)
 
 Ara ja tindrem el nostre compte nou creat i estarem dins.
 ![imagen](img/foto7.png)
