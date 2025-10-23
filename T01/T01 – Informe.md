@@ -33,7 +33,7 @@
 
 ---
 
-## ***1\. Introducció i justificació*** {#1.-introducció-i-justificació}
+## ***1\. Introducció i justificació*** 
 
 La seguretat de la informació és molt important per a qualsevol empresa tecnològica. Les contrasenyes són la primera protecció contra accessos no autoritzats, i per això és essencial gestionar-les correctament per mantenir segurs els sistemes i les dades de l’empresa.
 
@@ -45,12 +45,12 @@ Aquest tipus d’eina permet guardar i crear contrasenyes segures i úniques, de
 
 ---
 
-## ***2\. Comparativa tècnica de gestors de contrasenyes*** {#2.-comparativa-tècnica-de-gestors-de-contrasenyes}
+## ***2\. Comparativa tècnica de gestors de contrasenyes*** 
 
 S’han comparat dues opcions principals:  
  Bitwarden, com a alternativa en línia (núvol), i KeePassXC, com a solució local (offline).
 
-### Taula comparativa tècnica {#taula-comparativa-tècnica}
+### Taula comparativa tècnica 
 
 | Característica | Bitwarden (Núvol) | KeePassXC (Local) |
 | ----- | ----- | ----- |
@@ -63,9 +63,9 @@ S’han comparat dues opcions principals:
 
 ---
 
-## ***3\. Avantatges i inconvenients dels models*** {#3.-avantatges-i-inconvenients-dels-models}
+## ***3\. Avantatges i inconvenients dels models*** 
 
-### 3.1. Bitwarden (Online / Núvol) {#3.1.-bitwarden-(online-/-núvol)}
+### 3.1. Bitwarden (Online / Núvol) 
 
 **Avantatges**:
 
@@ -89,7 +89,7 @@ S’han comparat dues opcions principals:
 
 * Algunes funcions avançades (com compartir grups o auditories) requereixen la versió premium.
 
-### **3.2. KeePassXC (Offline / Local)** {#3.2.-keepassxc-(offline-/-local)}
+### **3.2. KeePassXC (Offline / Local)** 
 
 **Avantatges:**
 
@@ -111,7 +111,7 @@ S’han comparat dues opcions principals:
 
 ---
 
-## **4\. Recomanació final** {#4.-recomanació-final}
+## **4\. Recomanació final** 
 
 Després d’analitzar les dues alternatives, es recomana la implementació de Bitwarden com a gestor de contrasenyes corporatiu a EverPia.
 
@@ -131,7 +131,7 @@ Perquè?:
 
 ---
 
-## **5\. Conclusions** {#5.-conclusions}
+## **5\. Conclusions** 
 
 La implantació de Bitwarden com a gestor de contrasenyes corporatiu suposa un pas fonamental per millorar la seguretat i la productivitat a EverPia.
 
@@ -149,7 +149,7 @@ En conclusió, Bitwarden ofereix una solució moderna, escalable i de confiança
 
 ---
 
-## **6\. Annexos recomanats** {#6.-annexos-recomanats}
+## **6\. Annexos recomanats** 
 
 * Fitxer d’instal·lació i informació oficial: [https://bitwarden.com](https://bitwarden.com/)
 
