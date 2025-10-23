@@ -25,7 +25,7 @@ Comencem instal·lant la nostra eina, Bitwarden.
 L'obrim.  
 ![imagen](img/foto2.png)
 
-Una vegada a dins crearem el nostre nou compte.
+Una vegada a dins crearem la nostre nova compte.
 ![imagen](img/foto3.png)
 
 Primerament posem el nostre nom i correu
