@@ -4,6 +4,7 @@
 **Consultora:** EverPia  
 **Autor:** Javier García  
 **Data:** 21/10/2025  
+![imagen](img/foto10.png)
 
 ---
 
