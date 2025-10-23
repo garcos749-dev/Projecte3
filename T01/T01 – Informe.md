@@ -1,66 +1,37 @@
-
-
 # **INFORME TÈCNIC** {#informe-tècnic}
 
-### 
 
-### 
+![imagen](img/foto10.png)
 
-### 
+**Consultora: EverPia** {#consultora:-everpia}
 
-### 
+**Autor: Javier García** {#autor:-javier-garcía}
 
-### 
+**Data: 21/10/2025** {#data:-21/10/2025}
 
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-![imagen](img/foto_10.png)
-### 
-
-### 
-
-### **Consultora: EverPia** {#consultora:-everpia}
-
-### **Autor: Javier García** {#autor:-javier-garcía}
-
-### **Data: 21/10/2025** {#data:-21/10/2025}
+---
 
 **Índex**
 
-**[INFORME TÈCNIC	1](#informe-tècnic)**
+[1\. Introducció i justificació	](#1.-introducció-i-justificació)
 
-[Consultora: EverPia	1](#consultora:-everpia)
+[2\. Comparativa tècnica de gestors de contrasenyes	](#2.-comparativa-tècnica-de-gestors-de-contrasenyes)
 
-[Autor: Javier García	1](#autor:-javier-garcía)
+[Taula comparativa tècnica	](#taula-comparativa-tècnica)
 
-[Data: 21/10/2025	1](#data:-21/10/2025)
+[3\. Avantatges i inconvenients dels models	](#3.-avantatges-i-inconvenients-dels-models)
 
-[1\. Introducció i justificació	2](#1.-introducció-i-justificació)
+[3.1. Bitwarden (Online / Núvol)	](#3.1.-bitwarden-\(online-/-núvol\))
 
-[2\. Comparativa tècnica de gestors de contrasenyes	3](#2.-comparativa-tècnica-de-gestors-de-contrasenyes)
+[3.2. KeePassXC (Offline / Local)	](#3.2.-keepassxc-\(offline-/-local\))
 
-[Taula comparativa tècnica	4](#taula-comparativa-tècnica)
+[4\. Recomanació final	](#4.-recomanació-final)
 
-[3\. Avantatges i inconvenients dels models	4](#3.-avantatges-i-inconvenients-dels-models)
+[5\. Conclusions	](#5.-conclusions)
 
-[3.1. Bitwarden (Online / Núvol)	5](#3.1.-bitwarden-\(online-/-núvol\))
+[6\. Annexos recomanats	](#6.-annexos-recomanats)
 
-[3.2. KeePassXC (Offline / Local)	5](#3.2.-keepassxc-\(offline-/-local\))
-
-[4\. Recomanació final	6](#4.-recomanació-final)
-
-[5\. Conclusions	6](#5.-conclusions)
-
-[6\. Annexos recomanats	7](#6.-annexos-recomanats)
+---
 
 ## ***1\. Introducció i justificació*** {#1.-introducció-i-justificació}
 
@@ -71,6 +42,8 @@ En els últims anys, molts ciberatacs s’han produït per culpa de contrasenyes
 A EverPia, un cas així va provocar una bretxa de seguretat, després que un tècnic fes servir una contrasenya repetida. Per evitar que torni a passar, la Direcció Tècnica ha decidit implantar un gestor de contrasenyes per a tot el personal tècnic.
 
 Aquest tipus d’eina permet guardar i crear contrasenyes segures i úniques, de manera que els treballadors no hagin de recordar-ne tantes i es redueixin els errors humans, millorant la seguretat general de l’empresa.
+
+---
 
 ## ***2\. Comparativa tècnica de gestors de contrasenyes*** {#2.-comparativa-tècnica-de-gestors-de-contrasenyes}
 
@@ -87,6 +60,8 @@ S’han comparat dues opcions principals:
 | Sincronització | Automàtica entre dispositius | No disponible |
 | Cost / Llicència | Freemium | Gratuït |
 | Dependència d’Internet | Sí | No |
+
+---
 
 ## ***3\. Avantatges i inconvenients dels models*** {#3.-avantatges-i-inconvenients-dels-models}
 
@@ -134,6 +109,8 @@ S’han comparat dues opcions principals:
 
 * Interfície menys intuïtiva i sense aplicació mòbil oficial.
 
+---
+
 ## **4\. Recomanació final** {#4.-recomanació-final}
 
 Després d’analitzar les dues alternatives, es recomana la implementació de Bitwarden com a gestor de contrasenyes corporatiu a EverPia.
@@ -152,6 +129,8 @@ Perquè?:
 
 * **Autenticació de dos factors (2FA):** incrementa la seguretat dels comptes.
 
+---
+
 ## **5\. Conclusions** {#5.-conclusions}
 
 La implantació de Bitwarden com a gestor de contrasenyes corporatiu suposa un pas fonamental per millorar la seguretat i la productivitat a EverPia.
@@ -167,6 +146,8 @@ La implantació de Bitwarden com a gestor de contrasenyes corporatiu suposa un p
 * Garanteix l’accés segur des de qualsevol dispositiu amb connexió a Internet.
 
 En conclusió, Bitwarden ofereix una solució moderna, escalable i de confiança per garantir la seguretat de les credencials corporatives, reforçant la ciberseguretat d’EverPia i minimitzant els riscos de futures bretxes d’informació.
+
+---
 
 ## **6\. Annexos recomanats** {#6.-annexos-recomanats}
 
