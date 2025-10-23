@@ -1,82 +1,98 @@
-***GUIA***
+# 🧭 GUIA D'ÚS DE BITWARDEN
 
-Utilitzant l'eina que heu seleccionat a la Fase 1 (Bitwarden, KeePassX, o similar), heu de crear una Guia d'Ús per a l'Equip Tècnic. Aquesta guia ha de ser clara i basada en captures de pantalla i instruccions pas a pas.
+Utilitzant l'eina seleccionada a la **Fase 1** (**Bitwarden**, **KeePassX** o similar), heu de crear una **Guia d'Ús per a l'Equip Tècnic**.  
+Aquesta guia ha de ser **clara**, amb **captures de pantalla** i **instruccions pas a pas**.
 
 La guia ha de cobrir els següents punts obligatoris:
 
-1. Instal·lació i Configuració Inicial: Descàrrega, instal·lació i creació de la BBDD principal o compte mestre.  
-2. Generació de Contrasenyes Segures: Explicació de com utilitzar el generador de contrasenyes de l'eina (paràmetres, longitud, caràcters especials).  
-3. Exemples d'Ús i Emplenament Automàtic:
+---
 
-   * Com desar una credencial d'un compte de correu electrònic.
+## 1. Instal·lació i Configuració Inicial
 
-   * Com desar una credencial d'una aplicació o servei web.
+**Objectiu:** Aprendre a descarregar, instal·lar i crear la base de dades principal o compte mestre.
 
-   * Com fer servir l’extensió del navegador per emplenar automàticament les dades.
+1. Comencem instal·lant la nostra eina, **Bitwarden**.  
 
-4. Gestió de Còpies de Seguretat (Backup):
+    ![imatge](img/foto1.png)
 
-   * Explicació detallada de com fer una còpia de seguretat de l'arxiu de contrasenyes (KDBX en KeePass o Exportació en Bitwarden).  
-   * Recomanació de la millor pràctica per emmagatzemar aquesta còpia de seguretat de forma segura (clau USB xifrada o emmagatzematge xifrat al núvol).
+3. L’obrim.  
 
-Comencem instal·lant la nostra eina, Bitwarden.
-![imagen](img/foto1.png)
+    ![imatge](img/foto2.png)
 
-L'obrim.  
-![imagen](img/foto2.png)
+4. Un cop dins, crearem el nostre nou compte.  
 
-Una vegada a dins crearem la nostre nova compte.
-![imagen](img/foto3.png)
+    ![imatge](img/foto3.png)
 
-Primerament posem el nostre nom i correu
-![imagen](img/foto4.png)
+5. Primer de tot, introduïm el nostre **nom** i **correu electrònic**.  
 
-Fem la comprovació per poder continuar amb la creació del nou compte.
-![imagen](img/foto5.png)
+    ![imatge](img/foto4.png)
 
-Posem una contrasenya difícil, com podria ser aquesta:
+6. Fem la **verificació** per poder continuar amb la creació del nou compte.  
 
-![imagen](img/foto8.png)
+    ![imatge](img/foto5.png)
 
-Ara ja tindrem el nostre compte nou creat i estarem dins.
-![imagen](img/foto7.png)
+7. Introduïm una **contrasenya segura**, com podria ser aquesta:  
 
-# **Part 2** 
+   ![imatge](img/foto8.png)
 
-1. ***Generació de Contrasenyes Segures: Explicació de com utilitzar el generador de contrasenyes de l'eina (paràmetres, longitud, caràcters especials).***
+8. Ara ja tindrem el nostre **compte creat** i estarem dins de Bitwarden.  
 
-Per arribar aquí primer de tot hem d’anar a la part d’adalt on posa mostra i donar-li a generador i després posarem les configuracions que veiem a la imatge.
+    ![imatge](img/foto7.png)
 
-![imagen](img/foto1.1.png)
+---
 
-Li donem a Caixes fortes nou i inici de sessió, i posem les nostres dades.
+## 2. Generació de Contrasenyes Segures
 
-![imagen](img/foto2.2.png)
+**Objectiu:** Aprendre a utilitzar el generador de contrasenyes de l’eina (paràmetres, longitud, caràcters especials).
 
-1. ***Exemples d'Ús i Emplenament Automàtic:***
+1. Per arribar-hi, primer anem a la part superior on posa **“Mostra”** i fem clic a **“Generador”**.
+2. Configurem els paràmetres segons les nostres necessitats (longitud, caràcters especials, majúscules, etc.).  
 
-Entrem desde una conta de gmail de casa afegir l'extensió de bitwarden iniciem sessió amb la compte que hem creat i busquem github iniciem sessió i et sortirà directament per poder-ho guardar al bitware como ho tinc jo.
+   ![imatge](img/foto1.1.png)
 
-![imagen](img/foto3.3.png)
+3. Després, anem a **Caixes fortes → Nou inici de sessió** i introduïm les nostres dades.  
 
-Per fer aquest punt nema gmail i en comptes d’iniciar sessió posant el mail li donem a l'opció que surt un cop dins posem el mail i la contrasenya i li donem a guardar així ja està per sempre.
+   ![imatge](img/foto2.2.png)
 
-![imagen](img/foto4.4.png)
+---
 
-![imagen](img/foto5.5.png)
+## 3. Exemples d’Ús i Emplenament Automàtic
 
+**Objectiu:** Aprendre com desar credencials i utilitzar l’emplenament automàtic.
 
-1. ***Gestió de Còpies de Seguretat (Backup):***
+1. Entrem des d’un compte de **Gmail** a casa, afegim l’**extensió de Bitwarden** i iniciem sessió amb el compte creat anteriorment.
+2. Busquem **GitHub**, iniciem sessió, i Bitwarden ens oferirà **desar les credencials automàticament**, com es veu a la imatge.  
 
-Li donem a eines i selecionem l'apartat exporta la caixa forta 
-![imagen](img/foto6.6.png)
-i confirmem el format
+    ![imatge](img/foto3.3.png)
 
-Possem la contrasenya que hem ficat abanç
-![imagen](img/foto7.7.png)
+4. Per fer aquest pas amb **Gmail**, en comptes d’introduir manualment el correu, fem servir l’opció de Bitwarden:  
+   - Introduïm el correu i la contrasenya.  
+   - Cliquem **“Desa al Bitwarden”**.  
+   - A partir d’ara, les dades quedaran guardades de manera automàtica.  
 
-I l'exportem et tindria que quedar algo aixi 
+   ![imatge](img/foto4.4.png)  
+   ![imatge](img/foto5.5.png)
 
-![imagen](img/foto8.8.png)
+---
 
+## 4. Gestió de Còpies de Seguretat (Backup)
 
+**Objectiu:** Aprendre com fer i guardar una còpia de seguretat de les contrasenyes de manera segura.
+
+1. Anem a **Eines → Exporta la caixa forta**.  
+
+    ![imatge](img/foto6.6.png)
+
+3. Confirmem el **format d’exportació**.
+
+4. Introduïm la **contrasenya mestra** per autoritzar l’exportació.  
+ 
+   ![imatge](img/foto7.7.png)
+
+5. Finalment, exportem la còpia. El resultat hauria de ser semblant a això:  
+
+   ![imatge](img/foto8.8.png)
+
+---
+
+**Fi de la Guia d’Ús de Bitwarden**
