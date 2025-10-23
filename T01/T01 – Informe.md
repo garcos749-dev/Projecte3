@@ -3,11 +3,11 @@
 
 ![imagen](img/foto10.png)
 
-**Consultora: EverPia** {#consultora:-everpia}
+**Consultora: EverPia** 
 
-**Autor: Javier García** {#autor:-javier-garcía}
+**Autor: Javier García** 
 
-**Data: 21/10/2025** {#data:-21/10/2025}
+**Data: 21/10/2025** 
 
 ---
 
