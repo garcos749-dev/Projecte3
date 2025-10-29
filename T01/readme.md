@@ -13,6 +13,8 @@ Com a resposta, la Direcció Tècnica ha emès una directriu urgent:
 
 Se us encarrega la tasca d’**avaluar les opcions i crear la documentació necessària per formar el personal tècnic**.
 
+![imatge](img/foto11.png)
+
 ---
 
 ## 🧠 Fase 1: Anàlisi i Justificació (Document d'Informe)
