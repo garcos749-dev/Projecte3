@@ -9,6 +9,7 @@ IP de resposta (adreça associada al domini `xtec.cat`): `83.247.151.214`
 Valor TTL (Time To Live): `1692` segons
 
 Servidor que ha respost a la consulta: `127.0.0.53`
+
 ---
 
 ***Comanda 2: Consulta de Servidors de Noms (NS)***
@@ -35,6 +36,7 @@ Servidor que ha respost a la consulta: `127.0.0.53`
 Correu de l’administrador: root@dns1.nominalia.com
 
 Número de sèrie: 1761028965
+
 ---
 
 ***Comanda 4: Consulta resolució inversa***
@@ -45,6 +47,7 @@ Número de sèrie: 1761028965
 
 La IP 147.83.2.135 està associada als dominis:  
 upc.edu,edicioweb.produccio.upc.edu,masters.upc.edu,saladepremsa.upc.edu,upc.cat, www.upc.es, barcelonatech.upc.edu, i [barcelonatech-upc.eu](http://barcelonatech-upc.eu).
+
 ---
 
 **Comanda 1: Consulta Bàsica no Autoritativa**
@@ -54,6 +57,7 @@ upc.edu,edicioweb.produccio.upc.edu,masters.upc.edu,saladepremsa.upc.edu,upc.cat
 **Anàlisi: Per què indica que la resposta és no autoritativa?**
 
 Perquè la resposta prové d’un servidor DNS de caché (127.0.0.53) i no del servidor autoritatiu del domini.
+
 ---
 
 **Comanda 2: Consultes autoritatives**
