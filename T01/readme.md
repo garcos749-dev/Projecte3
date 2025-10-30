@@ -74,7 +74,7 @@ Utilitzant l’eina seleccionada a la fase anterior (Bitwarden, KeePassXC o simi
 
 ---
 
-Aqui se adjunta el fichero con el [informe](informe.md)
-i aqui la parte dos con [la Guia d'us](Guiad'ÚsTècnica.md)
+Aqui se adjunta el fichero con el [informe](T01-informe.md)
+i aqui la parte dos con [la Guia d'us](Fase2_Guiad'ÚsTècnica.md)
 [Volver al menu principal](/README.md)
 
