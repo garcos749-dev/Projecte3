@@ -150,12 +150,10 @@ Finalment, es vol comprovar el funcionament de la **resolució local**, útil pe
 
 ---
 
-### 📝 Activitat de la fase pràctica
+### 📝 Activitat Video
 
-Crear un document **`guia.md`** amb els **resultats i anàlisi** que inclogui:
 
-* Les captures de les **5 comandes anteriors**
-* Les **explicacions relacionades** amb cada resultat
+[https://drive.google.com/file/d/1zTpcZPC8vXI1BRqA84LW4KmnwwzfuMnm/view?usp=sharing](url)
 
 ---
 
