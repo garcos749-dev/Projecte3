@@ -152,8 +152,8 @@ Finalment, es vol comprovar el funcionament de la **resolució local**, útil pe
 
 ### 📝 Activitat Video
 
+[📁 Abrir archivo en Google Drive](https://drive.google.com/file/d/1zTpcZPC8vXI1BRqA84LW4KmnwwzfuMnm/view?usp=sharing)
 
-[https://drive.google.com/file/d/1zTpcZPC8vXI1BRqA84LW4KmnwwzfuMnm/view?usp=sharing](url)
 
 ---
 
