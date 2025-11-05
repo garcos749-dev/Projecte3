@@ -1,5 +1,5 @@
 # 🧩 T03: Gestió flexible de discos (LVM i Espais d’emmagatzematge)
-
+![imagen](img/foto10.png)
 ## 📄 Breu descripció
 Un cop superada la fase de formació, ja esteu preparats per afrontar el repte dels nostres clients.  
 El bufet d’advocats **Garriga i Associats**, un dels més prestigiosos de la ciutat, ha requerit els serveis de la nostra consultora **Everpia**.  
