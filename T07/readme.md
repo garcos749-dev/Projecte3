@@ -1,5 +1,7 @@
 # T07: Instal·lant un servidor de noms
 
+![imatge](img/foto1.png)
+
 ## 🧩 Breu descripció
 
 Després de l’exitosa experiència a nivell de formació, els nostres clients de **Digicore** estan tan satisfets amb la nostra feina que ens encarreguen la **implantació des de zero dels seus serveis de DNS interns**.
