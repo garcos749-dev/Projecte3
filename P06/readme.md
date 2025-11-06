@@ -1,5 +1,7 @@
 # P06: Vídeo — Fonaments DNS
 
+![imatge](img/foto1.png)
+
 ## 🧩 Breu descripció
 
 A la tasca **“T06: Fonaments del DNS”**, heu elaborat un **vídeo formatiu** dins l’encàrrec que **DigiCorp** va sol·licitar a **EverPia** per a la **formació del seu personal tècnic** en els **conceptes bàsics del sistema de noms de domini (DNS)**.
@@ -26,6 +28,5 @@ Recordeu que **progressar dins d’una consultora tecnològica** implica **docum
 
    * Afegiu-lo dins la carpeta `producte06/README.md`
    * Incloeu una breu descripció del contingut i els objectius del vídeo.
-![imatge](img/foto1.png)
 
 ---
