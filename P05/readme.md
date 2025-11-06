@@ -2,6 +2,8 @@
 
 ## 🧩 Breu descripció
 
+![imagen](img/foto1.png)
+
 En el vostre camí per arribar a ser **consultors d’infraestructura sènior**, teniu assignada una **tasca de màxima prioritat** per al nostre client: una **empresa de disseny** que necessita **modernitzar els seus servidors de fitxers**.
 
 La vostra missió és **preparar i defensar una presentació comparativa exhaustiva** davant del client.
