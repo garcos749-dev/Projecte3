@@ -75,12 +75,3 @@ scp usuari@ip_del_servidor:/etc/bind/named.conf.options .
 3. Per facilitar la creació inicial, podeu afegir un fitxer temporal anomenat `zones/esborrar` i eliminar-lo un cop pujats els arxius reals.
 
 ---
-
-## 🎯 Objectius específics de la tasca / Finalitat de la tasca
-
-* **Utilitzar GitHub** per **documentar configuracions de servidors**.
-* Valorar els avantatges de la **repetibilitat** en entorns tècnics.
-* **Garantir la traçabilitat** i la **seguretat** de la configuració mitjançant control de versions.
-* Afavorir la **col·laboració i reutilització** dels recursos dins l’equip tècnic.
-
----
