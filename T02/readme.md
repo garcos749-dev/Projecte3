@@ -1,4 +1,5 @@
-# T02: Gestió d’emmagatzematge
+# T02: Gestió d’emmagatzematge 
+   ![imatge](img/foto1.png)
 
 ## 🧩 Breu descripció
 
