@@ -26,5 +26,6 @@ Recordeu que **progressar dins d’una consultora tecnològica** implica **docum
 
    * Afegiu-lo dins la carpeta `producte06/README.md`
    * Incloeu una breu descripció del contingut i els objectius del vídeo.
+![imatge](img/foto1.png)
 
 ---
