@@ -290,20 +290,9 @@ Para finalizar, editaremos el archivo `/etc/pam.d/gdm-launch-environment` para p
 
 Reiniciaremos el cliente y, en la pantalla de inicio de sesión, haremos clic en **Not listed** para introducir manualmente otro usuario.
 
-   ![imatge](img/foto40.png)
+   ![imatge](img/foto36.png)
 
-A continuación, introduciremos el usuario `tech01` para iniciar sesión con las siguientes credenciales:
 
-- **Usuario:** `tech01`
-- **Contraseña:** `1234`
-
-   ![imatge](img/foto42.png)
-
-Después de introducir la contraseña, aparecerá un mensaje indicando que se está creando el **directorio personal** del usuario, en este caso `/home/tech01`.
-
-Una vez iniciada la sesión, se puede comprobar que todo se ha creado correctamente.
-
-   ![imatge](img/foto43.png)
 
 
 [Tornar a enunciat](README.MD)
