@@ -1,5 +1,4 @@
 
-![imatge](img/foto1.png)
 # Javier García Marc Azañedo
 
 ## Índex
