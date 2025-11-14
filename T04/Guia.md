@@ -52,9 +52,9 @@ sudo apt install slapd ldap-utils -y
 Durante la instalación, el sistema nos pedirá la contraseña del administrador. Introduciremos `p@ssw0rd`, tal y como se indica en el Pliego de Condiciones Técnicas.
 
    ![imatge](img/foto6.png)
-   ![imatge](img/foto5.png)
    ![imatge](img/foto6.1.png)
    ![imatge](img/foto7.png)
+   ![imatge](img/foto8.png)
 
 Una vez ejecutado el pedido anterior, comprobaremos que el servicio se está ejecutando correctamente con el siguiente pedido:
 
@@ -62,7 +62,7 @@ Una vez ejecutado el pedido anterior, comprobaremos que el servicio se está eje
 sudo systemctl status slapd
 ```
 
-   ![imatge](img/foto8.png)
+   ![imatge](img/foto9.png)
 
 Ahora comprobaremos que el directorio se ha creado con el nombre deseado:
 
@@ -70,7 +70,7 @@ Ahora comprobaremos que el directorio se ha creado con el nombre deseado:
 sudo slapcat
 ```
 
-   ![imatge](img/foto9.png)
+   ![imatge](img/foto10.png)
 
 En caso de que el nombre del directorio no sea el correcto, deberemos reconfigurar el servicio con el siguiente pedido:
 
