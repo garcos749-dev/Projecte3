@@ -199,7 +199,7 @@ Una vez dentro del cliente, deberemos **configurar el nombre del equipo** para q
 
 Como no disponemos de un servicio **DNS**, editaremos el archivo `/etc/hosts` del cliente para que pueda resolver el nombre del servidor correctamente.
 
-   ![imatge](img/foto26.png)
+   ![imatge](img/foto23.png)
 
 Ahora comprobaremos que los nombres se resuelven correctamente ejecutando los siguientes pedidos:
 
@@ -219,7 +219,7 @@ Para verificar que la resolución DNS hacia el servidor de dominio es correcta:
 dig server.innovatech26.test
 ```
 
-   ![imatge](img/foto27.png)
+   ![imatge](img/foto24.png)
 
 ### Instalación de los módulos de autenticación LDAP
 
@@ -232,12 +232,12 @@ sudo apt install libnss-ldap libpam-ldap ldap-utils nscd -y
 A continuación, se iniciará el proceso de configuración de los **módulos de autenticación**.
 
 
+   ![imatge](img/foto25.png)
+   ![imatge](img/foto26.png)
+   ![imatge](img/foto27.png)
    ![imatge](img/foto28.png)
    ![imatge](img/foto29.png)
    ![imatge](img/foto30.png)
-   ![imatge](img/foto31.png)
-   ![imatge](img/foto32.png)
-   ![imatge](img/foto33.png)
 
 Para comprobar la conectividad con el servidor, haremos una consulta **ldapsearch** desde el cliente con el siguiente pedido:
 
