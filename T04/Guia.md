@@ -130,11 +130,6 @@ Puesto que administrar el servidor de dominio desde la línea de mandatos puede 
 
 Para instalarlo, ejecutaremos el siguiente comando (el parámetro `-y` evita que aparezcan mensajes de confirmación durante la instalación):
 
-```bash
-sudo apt install ldap-account-manager -y
-```
-
-Una vez instalado, nos conectaremos desde la máquina física a través de la interfaz **host-only**, introduciendo su dirección IP seguida de `/lam` en el navegador:
 
 ```
 http://IP_DEL_SERVER/lam
