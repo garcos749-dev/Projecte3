@@ -111,16 +111,16 @@ objectClass: organizationalUnit
 Para crear finalmente las OUs, ejecutaremos el siguiente comando:
 
 ```bash
-sudo ldapadd -D "cn=admin,dc=innovatech26,dc=test" -W -f OU_users.ldif
+sudo ldapadd -D "cn=admin,dc=innovatech11,dc=test" -W -f OU_users.ldif
 ```
 
 Para comprobar que se ha hecho correctamente pondremos el siguiente pedido:
 
 ```bash
-ldapsearch -xLLL -b "dc=innovatech26,dc=test"
+ldapsearch -xLLL -b "dc=innovatech11,dc=test"
 ```
 
-   ![imatge](img/foto12.png)
+   ![imatge](img/foto13.png)
 
 ---
 
