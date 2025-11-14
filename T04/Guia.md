@@ -132,22 +132,21 @@ Para instalarlo, ejecutaremos el siguiente comando (el parámetro `-y` evita que
 
  ![imatge](img/foto14.png)
 
-```
 http://IP_DEL_SERVER/lam
-```
 
-Una vez dentro, accederemos a **Edit server profiles** para empezar la configuración del perfil del servidor.
- 
+ ![imatge](img/foto15.png)
+
 
 En este apartado configuraremos las opciones generales del gestor, como el idioma, la cuenta de administrador y otros parámetros básicos.
 
-   ![imatge](img/foto15.png)
+
+   ![imatge](img/foto16.png)
 
  
 
 En la segunda pestaña **Account Types**, definiremos los **DN** de los usuarios y de los grupos, incluyendo una **OU** para los usuarios y otra para los grupos.
 
-   ![imatge](img/foto16.png)
+   ![imatge](img/foto17.png)
 
 ---
 
@@ -161,13 +160,13 @@ Para ello, iremos a **Accounts → Groups**.
 
 Una vez dentro de este apartado, haremos clic en **New group** para crear ambos grupos.
 
-   ![imatge](img/foto17.png)
+   ![imatge](img/foto18.png)
 
 Después de configurarlos, pulsamos **Save** para guardar los cambios.
 
 Por último, ya tenemos creados los dos grupos en el directorio.
 
-   ![imatge](img/foto18.png)
+   ![imatge](img/foto19.png)
 
 ### Usuarios
 
@@ -177,15 +176,15 @@ Para ello, nos dirigiremos a **Accounts → Users** y haremos clic en **New user
 
 En el interior del formulario deberemos introducir la información personal del usuario, como la dirección, el teléfono, la fotografía y otros datos básicos.
 
-   ![imatge](img/foto21.png)
+   ![imatge](img/foto20.png)
 
 También configuraremos la información **Unix**, necesaria para que el usuario pueda iniciar sesión en el cliente.
 
-   ![imatge](img/foto22.png)
+   ![imatge](img/foto21.png)
 
 En este paso, deberemos crear el **grupo primario** con el mismo nombre que el usuario.
 
-   ![imatge](img/foto23.png)
+   ![imatge](img/foto22.png)
 
 Deberemos añadir el usuario al **grupo correspondiente**.  
 
@@ -195,13 +194,13 @@ Por último, deberemos crear una **contraseña** para que el usuario de dominio 
 
 Para ello, haremos clic en el botón **Set password**, introduciremos la contraseña `1234` y marcaremos la casilla que obliga al usuario a cambiarla en el **primer inicio de sesión**.
 
-   ![imatge](img/foto24.png)
+   ![imatge](img/foto23.png)
 
 Una vez completados estos pasos, guardaremos al nuevo usuario haciendo clic en el botón **Save**.  
 
 A continuación, repetiremos el mismo proceso con el usuario y el grupo `manager01`, obteniendo el siguiente resultado:
 
-   ![imatge](img/foto25.png)
+   ![imatge](img/foto24.png)
 
 ---
 
