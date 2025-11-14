@@ -1,10 +1,5 @@
 # T04: Serveis de directori. LDAP  
 
-## 1️⃣ Creació de la màquina virtual
-
-Creem una màquina virtual on instal·larem **Ubuntu Server**.
-
-<img src="img/1.png" alt="Creació d'una màquina virtual amb Ubuntu Server per instal·lar el servei LDAP.">
 
 Un cop dins, actualitzem els paquets:
 
