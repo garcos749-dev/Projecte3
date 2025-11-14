@@ -182,25 +182,10 @@ También configuraremos la información **Unix**, necesaria para que el usuario 
 
    ![imatge](img/foto21.png)
 
-En este paso, deberemos crear el **grupo primario** con el mismo nombre que el usuario.
-
-   ![imatge](img/foto22.png)
-
-Deberemos añadir el usuario al **grupo correspondiente**.  
-
-Para ello, haremos clic en el botón **Edit groups** y, una vez dentro, moveremos el grupo `tech` (en este caso) en la sección **Selected groups** para asignarlo correctamente al usuario.
-
-Por último, deberemos crear una **contraseña** para que el usuario de dominio pueda iniciar sesión.  
-
-Para ello, haremos clic en el botón **Set password**, introduciremos la contraseña `1234` y marcaremos la casilla que obliga al usuario a cambiarla en el **primer inicio de sesión**.
-
-   ![imatge](img/foto23.png)
-
-Una vez completados estos pasos, guardaremos al nuevo usuario haciendo clic en el botón **Save**.  
 
 A continuación, repetiremos el mismo proceso con el usuario y el grupo `manager01`, obteniendo el siguiente resultado:
 
-   ![imatge](img/foto24.png)
+   ![imatge](img/foto22.png)
 
 ---
 
