@@ -280,13 +280,13 @@ getent passwd | tail
 ```
 
 Podemos verificar que el sistema muestra correctamente a los usuarios provenientes del directorio **LDAP**.
-   ![imatge](img/foto38.png)
+   ![imatge](img/foto34.png)
 
 ## 9️⃣ Inicio de sesión gráfica
 
 Para finalizar, editaremos el archivo `/etc/pam.d/gdm-launch-environment` para permitir el inicio de sesión gráfica de los usuarios del dominio.
 
-   ![imatge](img/foto39.png)
+   ![imatge](img/foto35.png)
 
 Reiniciaremos el cliente y, en la pantalla de inicio de sesión, haremos clic en **Not listed** para introducir manualmente otro usuario.
 
