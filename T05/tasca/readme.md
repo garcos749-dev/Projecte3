@@ -1,3 +1,4 @@
+
    ![imatge](img/foto1.png)
 
 # Javier García Marc Azañedo
@@ -22,6 +23,7 @@
 ---
 
 ## Organigrama de l’empresa
+
 
    ![imatge](img/foto2.png)
 
@@ -79,6 +81,7 @@ Per adaptar-s’hi, Moodest aposta per:
 
 ## 5. Model de negoci CANVAS
 
+  
    ![imatge](img/foto3.png)
 
 ---
@@ -106,6 +109,7 @@ Per adaptar-s’hi, Moodest aposta per:
 
 ## 8. DAFO i planificació estratègica de futur
 
+  
    ![imatge](img/foto4.png)
 
 ---
