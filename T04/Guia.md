@@ -26,7 +26,6 @@ Verificamos que los cambios se han aplicado correctamente en el dominio.
 
 Para permitir la comunicación con el anfitrión, configuramos una interfaz **Host-Only**:
 
-   ![imatge](img/foto3.png)
 
 Editaremos el archivo `/etc/netplan/50-cloud-init.yaml` con el siguiente pedido para habilitar la interfaz:
 
