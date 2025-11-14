@@ -92,18 +92,19 @@ sudo nano OU_users.ldif
 Dentro del archivo añadiremos el siguiente contenido:
 
 ```ldif
-dn: ou=users,dc=innovatech26,dc=test
+dn: ou=users,dc=innovatech11,dc=test
 ou: users
 objectClass: top
 objectClass: organizationalUnit
 
-dn: ou=groups,dc=innovatech26,dc=test
+dn: ou=groups,dc=innovatech11,dc=test
 ou: groups
 objectClass: top
 objectClass: organizationalUnit
 ```
 
    ![imatge](img/foto10.png)
+  
    ![imatge](img/foto11.png)
 
 
