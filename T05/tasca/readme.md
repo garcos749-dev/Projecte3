@@ -24,7 +24,7 @@
 ## Organigrama de l’empresa
 
 
-   ![imatge](img/foto2.png)
+![imatge](img/foto2.png)
 
 ---
 
