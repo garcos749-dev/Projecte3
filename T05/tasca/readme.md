@@ -25,7 +25,6 @@
 
 ![imatge](img/foto2.png)
 
----
 
 ## 2. Anàlisi de l’entorn real de l’empresa
 
