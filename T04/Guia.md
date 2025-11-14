@@ -51,8 +51,8 @@ sudo apt install slapd ldap-utils -y
 
 Durante la instalación, el sistema nos pedirá la contraseña del administrador. Introduciremos `p@ssw0rd`, tal y como se indica en el Pliego de Condiciones Técnicas.
 
-   ![imatge](img/foto5.png)
    ![imatge](img/foto6.png)
+   ![imatge](img/foto5.png)
    ![imatge](img/foto6.1.png)
    ![imatge](img/foto7.png)
 
