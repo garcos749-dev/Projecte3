@@ -53,8 +53,7 @@ Durante la instalación, el sistema nos pedirá la contraseña del administrador
 
    ![imatge](img/foto6.1.png)
    ![imatge](img/foto6.png)
-   ![imatge](img/foto7.png)
-   ![imatge](img/foto8.png)
+
 
 Una vez ejecutado el pedido anterior, comprobaremos que el servicio se está ejecutando correctamente con el siguiente pedido:
 
@@ -62,7 +61,7 @@ Una vez ejecutado el pedido anterior, comprobaremos que el servicio se está eje
 sudo systemctl status slapd
 ```
 
-   ![imatge](img/foto9.png)
+   ![imatge](img/foto7.png)
 
 Ahora comprobaremos que el directorio se ha creado con el nombre deseado:
 
@@ -70,7 +69,7 @@ Ahora comprobaremos que el directorio se ha creado con el nombre deseado:
 sudo slapcat
 ```
 
-   ![imatge](img/foto10.png)
+   ![imatge](img/foto8.png)
 
 En caso de que el nombre del directorio no sea el correcto, deberemos reconfigurar el servicio con el siguiente pedido:
 
