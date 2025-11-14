@@ -33,11 +33,11 @@ Editaremos el archivo `/etc/netplan/50-cloud-init.yaml` con el siguiente pedido 
 sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 
-   ![imatge](img/foto4.png)
+   ![imatge](img/foto3.png)
 
 Aplicamos los cambios y comprobamos la interfaz con `ip a`:
 
-   ![imatge](img/foto5.png)
+   ![imatge](img/foto4.png)
 
 ---
 
@@ -51,10 +51,10 @@ sudo apt install slapd ldap-utils -y
 
 Durante la instalación, el sistema nos pedirá la contraseña del administrador. Introduciremos `p@ssw0rd`, tal y como se indica en el Pliego de Condiciones Técnicas.
 
+   ![imatge](img/foto5.png)
    ![imatge](img/foto6.png)
    ![imatge](img/foto6.1.png)
    ![imatge](img/foto7.png)
-   ![imatge](img/foto8.png)
 
 Una vez ejecutado el pedido anterior, comprobaremos que el servicio se está ejecutando correctamente con el siguiente pedido:
 
@@ -62,7 +62,7 @@ Una vez ejecutado el pedido anterior, comprobaremos que el servicio se está eje
 sudo systemctl status slapd
 ```
 
-   ![imatge](img/foto9.png)
+   ![imatge](img/foto8.png)
 
 Ahora comprobaremos que el directorio se ha creado con el nombre deseado:
 
@@ -70,7 +70,7 @@ Ahora comprobaremos que el directorio se ha creado con el nombre deseado:
 sudo slapcat
 ```
 
-   ![imatge](img/foto10.png)
+   ![imatge](img/foto9.png)
 
 En caso de que el nombre del directorio no sea el correcto, deberemos reconfigurar el servicio con el siguiente pedido:
 
@@ -104,8 +104,8 @@ objectClass: top
 objectClass: organizationalUnit
 ```
 
+   ![imatge](img/foto10.png)
    ![imatge](img/foto11.png)
-   ![imatge](img/foto12.png)
 
 
 Para crear finalmente las OUs, ejecutaremos el siguiente comando:
@@ -120,7 +120,7 @@ Para comprobar que se ha hecho correctamente pondremos el siguiente pedido:
 ldapsearch -xLLL -b "dc=innovatech26,dc=test"
 ```
 
-   ![imatge](img/foto13.png)
+   ![imatge](img/foto12.png)
 
 ---
 
@@ -140,27 +140,27 @@ Una vez instalado, nos conectaremos desde la máquina física a través de la in
 http://IP_DEL_SERVER/lam
 ```
 
-   ![imatge](img/foto14.png)
+   ![imatge](img/foto13.png)
 
 Una vez dentro, accederemos a **Edit server profiles** para empezar la configuración del perfil del servidor.
-   ![imatge](img/foto15.png)
+   ![imatge](img/foto14.png)
 
 En este apartado configuraremos las opciones generales del gestor, como el idioma, la cuenta de administrador y otros parámetros básicos.
 
-   ![imatge](img/foto16.png)
+   ![imatge](img/foto15.png)
 
-   ![imatge](img/foto17.png)
+   ![imatge](img/foto16.png)
 
 En la segunda pestaña **Account Types**, definiremos los **DN** de los usuarios y de los grupos, incluyendo una **OU** para los usuarios y otra para los grupos.
 
-   ![imatge](img/foto18.png)
+   ![imatge](img/foto17.png)
 
 A continuación, aparecerá el panel de inicio de sesión, al que accederemos con el usuario administrador del dominio:
 ```
 Usuario: admin  
 Contraseña: p@ssw0rd
 ```
-   ![imatge](img/foto19.png)
+   ![imatge](img/foto18.png)
 
 ---
 
@@ -174,13 +174,13 @@ Para ello, iremos a **Accounts → Groups**.
 
 Una vez dentro de este apartado, haremos clic en **New group** para crear ambos grupos.
 
-   ![imatge](img/foto20.png)
+   ![imatge](img/foto19.png)
 
 Después de configurarlos, pulsamos **Save** para guardar los cambios.
 
 Por último, ya tenemos creados los dos grupos en el directorio.
 
-   ![imatge](img/foto21.png)
+   ![imatge](img/foto20.png)
 
 ### Usuarios
 
@@ -190,15 +190,15 @@ Para ello, nos dirigiremos a **Accounts → Users** y haremos clic en **New user
 
 En el interior del formulario deberemos introducir la información personal del usuario, como la dirección, el teléfono, la fotografía y otros datos básicos.
 
-   ![imatge](img/foto22.png)
+   ![imatge](img/foto21.png)
 
 También configuraremos la información **Unix**, necesaria para que el usuario pueda iniciar sesión en el cliente.
 
-   ![imatge](img/foto23.png)
+   ![imatge](img/foto22.png)
 
 En este paso, deberemos crear el **grupo primario** con el mismo nombre que el usuario.
 
-   ![imatge](img/foto24.png)
+   ![imatge](img/foto23.png)
 
 Deberemos añadir el usuario al **grupo correspondiente**.  
 
@@ -208,13 +208,13 @@ Por último, deberemos crear una **contraseña** para que el usuario de dominio 
 
 Para ello, haremos clic en el botón **Set password**, introduciremos la contraseña `1234` y marcaremos la casilla que obliga al usuario a cambiarla en el **primer inicio de sesión**.
 
-   ![imatge](img/foto25.png)
+   ![imatge](img/foto24.png)
 
 Una vez completados estos pasos, guardaremos al nuevo usuario haciendo clic en el botón **Save**.  
 
 A continuación, repetiremos el mismo proceso con el usuario y el grupo `manager01`, obteniendo el siguiente resultado:
 
-   ![imatge](img/foto26.png)
+   ![imatge](img/foto25.png)
 
 ---
 
@@ -228,7 +228,7 @@ Una vez dentro del cliente, deberemos **configurar el nombre del equipo** para q
 
 Como no disponemos de un servicio **DNS**, editaremos el archivo `/etc/hosts` del cliente para que pueda resolver el nombre del servidor correctamente.
 
-   ![imatge](img/foto27.png)
+   ![imatge](img/foto26.png)
 
 Ahora comprobaremos que los nombres se resuelven correctamente ejecutando los siguientes pedidos:
 
@@ -248,7 +248,7 @@ Para verificar que la resolución DNS hacia el servidor de dominio es correcta:
 dig server.innovatech26.test
 ```
 
-   ![imatge](img/foto28.png)
+   ![imatge](img/foto27.png)
 
 ### Instalación de los módulos de autenticación LDAP
 
@@ -261,12 +261,12 @@ sudo apt install libnss-ldap libpam-ldap ldap-utils nscd -y
 A continuación, se iniciará el proceso de configuración de los **módulos de autenticación**.
 
 
+   ![imatge](img/foto28.png)
    ![imatge](img/foto29.png)
    ![imatge](img/foto30.png)
    ![imatge](img/foto31.png)
    ![imatge](img/foto32.png)
    ![imatge](img/foto33.png)
-   ![imatge](img/foto34.png)
 
 Para comprobar la conectividad con el servidor, haremos una consulta **ldapsearch** desde el cliente con el siguiente pedido:
 
@@ -274,7 +274,7 @@ Para comprobar la conectividad con el servidor, haremos una consulta **ldapsearc
 ldapsearch -x -D "cn=admin,dc=innovatech26,dc=test" -W -H ldap://server.innovatech26.test -b "dc=innovatech26,dc=test" objectClass=posixAccount uid
 ```
 
-   ![imatge](img/foto35.png)
+   ![imatge](img/foto34.png)
 
 ---
 
@@ -286,15 +286,15 @@ Ahora configuraremos el archivo `nsswitch.conf` para indicar que se utilizará *
 sudo nano /etc/nsswitch.conf
 ```
 
-   ![imatge](img/foto36.png)
+   ![imatge](img/foto35.png)
 
 En el archivo `/etc/pam.d/common-password`, eliminaremos la línea que contenga el término `use_authok`.
 
-   ![imatge](img/foto37.png)
+   ![imatge](img/foto36.png)
 
 En el archivo `/etc/pam.d/common-session`, añadiremos la siguiente línea para permitir la **creación automática de los perfiles de usuario**:
 
-   ![imatge](img/foto38.png)
+   ![imatge](img/foto37.png)
 
 Ahora reiniciaremos el servicio con el siguiente pedido:
 
@@ -309,17 +309,17 @@ getent passwd | tail
 ```
 
 Podemos verificar que el sistema muestra correctamente a los usuarios provenientes del directorio **LDAP**.
-   ![imatge](img/foto39.png)
+   ![imatge](img/foto38.png)
 
 ## 9️⃣ Inicio de sesión gráfica
 
 Para finalizar, editaremos el archivo `/etc/pam.d/gdm-launch-environment` para permitir el inicio de sesión gráfica de los usuarios del dominio.
 
-   ![imatge](img/foto40.png)
+   ![imatge](img/foto39.png)
 
 Reiniciaremos el cliente y, en la pantalla de inicio de sesión, haremos clic en **Not listed** para introducir manualmente otro usuario.
 
-   ![imatge](img/foto41.png)
+   ![imatge](img/foto40.png)
 
 A continuación, introduciremos el usuario `tech01` para iniciar sesión con las siguientes credenciales:
 
