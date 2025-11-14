@@ -237,7 +237,7 @@ A continuación, se iniciará el proceso de configuración de los **módulos de 
    ![imatge](img/foto27.png)
    ![imatge](img/foto28.png)
    ![imatge](img/foto29.png)
-   ![imatge](img/foto30.png)
+  
 
 Para comprobar la conectividad con el servidor, haremos una consulta **ldapsearch** desde el cliente con el siguiente pedido:
 
@@ -245,7 +245,7 @@ Para comprobar la conectividad con el servidor, haremos una consulta **ldapsearc
 ldapsearch -x -D "cn=admin,dc=innovatech26,dc=test" -W -H ldap://server.innovatech26.test -b "dc=innovatech26,dc=test" objectClass=posixAccount uid
 ```
 
-   ![imatge](img/foto34.png)
+   ![imatge](img/foto30.png)
 
 ---
 
@@ -257,15 +257,15 @@ Ahora configuraremos el archivo `nsswitch.conf` para indicar que se utilizará *
 sudo nano /etc/nsswitch.conf
 ```
 
-   ![imatge](img/foto35.png)
+   ![imatge](img/foto31.png)
 
 En el archivo `/etc/pam.d/common-password`, eliminaremos la línea que contenga el término `use_authok`.
 
-   ![imatge](img/foto36.png)
+   ![imatge](img/foto32.png)
 
 En el archivo `/etc/pam.d/common-session`, añadiremos la siguiente línea para permitir la **creación automática de los perfiles de usuario**:
 
-   ![imatge](img/foto37.png)
+   ![imatge](img/foto33.png)
 
 Ahora reiniciaremos el servicio con el siguiente pedido:
 
