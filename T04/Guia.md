@@ -140,27 +140,20 @@ Una vez instalado, nos conectaremos desde la máquina física a través de la in
 http://IP_DEL_SERVER/lam
 ```
 
-   ![imatge](img/foto13.png)
+   ![imatge](img/foto14.png)
 
 Una vez dentro, accederemos a **Edit server profiles** para empezar la configuración del perfil del servidor.
-   ![imatge](img/foto14.png)
+ 
 
 En este apartado configuraremos las opciones generales del gestor, como el idioma, la cuenta de administrador y otros parámetros básicos.
 
    ![imatge](img/foto15.png)
 
-   ![imatge](img/foto16.png)
+ 
 
 En la segunda pestaña **Account Types**, definiremos los **DN** de los usuarios y de los grupos, incluyendo una **OU** para los usuarios y otra para los grupos.
 
-   ![imatge](img/foto17.png)
-
-A continuación, aparecerá el panel de inicio de sesión, al que accederemos con el usuario administrador del dominio:
-```
-Usuario: admin  
-Contraseña: p@ssw0rd
-```
-   ![imatge](img/foto18.png)
+   ![imatge](img/foto16.png)
 
 ---
 
@@ -174,13 +167,13 @@ Para ello, iremos a **Accounts → Groups**.
 
 Una vez dentro de este apartado, haremos clic en **New group** para crear ambos grupos.
 
-   ![imatge](img/foto19.png)
+   ![imatge](img/foto17.png)
 
 Después de configurarlos, pulsamos **Save** para guardar los cambios.
 
 Por último, ya tenemos creados los dos grupos en el directorio.
 
-   ![imatge](img/foto20.png)
+   ![imatge](img/foto18.png)
 
 ### Usuarios
 
