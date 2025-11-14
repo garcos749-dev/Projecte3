@@ -1,3 +1,5 @@
+   ![imatge](img/foto1.png)
+
 # Javier García Marc Azañedo
 
 ## Índex
@@ -21,7 +23,7 @@
 
 ## Organigrama de l’empresa
 
-*(Aquesta secció es podria afegir com a imatge o esquema visual.)*
+   ![imatge](img/foto2.png)
 
 ---
 
@@ -77,7 +79,7 @@ Per adaptar-s’hi, Moodest aposta per:
 
 ## 5. Model de negoci CANVAS
 
-*(Es pot afegir un gràfic CANVAS aquí.)*
+   ![imatge](img/foto3.png)
 
 ---
 
@@ -104,7 +106,7 @@ Per adaptar-s’hi, Moodest aposta per:
 
 ## 8. DAFO i planificació estratègica de futur
 
-*(Espai reservat per DAFO i planificació.)*
+   ![imatge](img/foto4.png)
 
 ---
 
