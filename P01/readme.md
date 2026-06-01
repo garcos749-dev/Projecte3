@@ -35,3 +35,4 @@ Cada setmana es farà una **revisió de l’estat del Planner**, per tant és **
 Assegurar una **gestió àgil i transparent** del projecte mitjançant l’aplicació pràctica de la metodologia **Kanban**, millorant la **comunicació**, la **productivitat** i el **control de l’avanç** dins l’equip.
 
 ---
+Enlace [Planner del proyecto](https://planner.cloud.microsoft/webui/plan/hPIZVu-f3kCdPX4hMhn1NZYAF0Gu/view/board?tid=c7b5981a-7820-4ac8-ae65-03515ea81317)
